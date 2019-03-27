@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+float km_inicial, km_final, km_percorrido, litros, preco_litro, cap_tanque, custo, autonomia;
+
+printf("Digite a kilometragem inicial: ");
+scanf("%i", km_inicial);
+printf("Digite a kilometragem final: ");
+scanf("%i", km_final);
+printf("Digite a capacidade do tanque de combustivel: ");
+scanf("%i", cap_tanque);
+printf("Digite o preço do litro: ");
+scanf("%i", preco_litro);
+
+autonomia = capacidade * consumo;
+custo = preco * consumo;
+consumo = km_percorrido / litros;
+km_percorrido = km_final - km_inicial;
+
+printf("A autonomia do automovel é de:", autonomia);
+printf("\n");
+printf("A kilometragem percorrida foi de:", km_percorrido);
+printf("\n");
+printf("O consumo foi de:", autonomia);
+printf("\n");
+printf("o custo foi de: ", custo);
+}
