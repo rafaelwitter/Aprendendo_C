@@ -22,7 +22,7 @@ void cria_matriz(int matriz[][COL], int nLIN){
     /* Preenche a matriz percorrendo todo o array */
     for (int y=0; y < nLIN; y+=1)
         for(int x=0; x < COL; x+=1)
-            matriz[y][x] = rand() % 13; /* Usa numeros aleatorios entre 0 e 10 com a função rand() */
+            matriz[y][x] = 1; /* Usa numeros aleatorios entre 0 e 10 com a função rand() */
 }
 void imprime_matriz(int matriz[][COL], int nLIN){
     /* Essa função mostra o array no console com espaçamento de 4 digitos de largura e 2 linhas puladas */
